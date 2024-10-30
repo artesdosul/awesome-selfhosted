@@ -27,9 +27,9 @@
   - [Proxy](#proxy)
   - [Recipe Management](#recipe-management)
   - [Remote Access](#remote-access)
-  - [Resource Planning](#resource-planning)
   - [Search Engines](#search-engines)
   - [Self-hosting Solutions](#self-hosting-solutions)
+  - [Software Development - API Management](#software-development---api-management)
   - [Software Development - Low Code](#software-development---low-code)
   - [Software Development - Project Management](#software-development---project-management)
   - [Software Development - Testing](#software-development---testing)
@@ -45,6 +45,8 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
+- [Ctfreak](https://ctfreak.com) - IT task scheduler with mobile-friendly web UI to schedule concurrent, remote and chained execution of Bash / Powershell / SQL scripts, Webhooks, and more. `⊘ Proprietary` `Unknown`
+- [CxReports](https://www.cx-reports.com) `⚠` - Reporting and PDF document generation with a user-friendly WYSIWYG template editor, API, automated email delivery, and robust security features. `⊘ Proprietary` `Docker`
 - [n8n](https://n8n.io/) - Free node based Workflow Automation Tool. Easily automate tasks across different services. ([Source Code](https://github.com/n8n-io/n8n)) `Apache-2.0/Commons-Clause` `Nodejs`
 
 
@@ -184,7 +186,6 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Cosmos](https://cosmos-cloud.io/) - Cosmos is a self-hosted platform for running server applications securely and with built-in privacy features. It acts as a secure gateway to your application, as well as a server manager. ([Source Code](https://github.com/azukaar/cosmos-Server)) `Apache-2.0/Commons-Clause` `Docker/Go`
 - [inlets](https://inlets.dev/) - Expose your local endpoints to the Internet - with a Kubernetes integration, Docker image and CLI available. ([Source Code](https://github.com/inlets/inlets-pro)) `⊘ Proprietary` `Go/Docker`
 
 
@@ -202,13 +203,6 @@
 - [SparkView](https://www.beyondssl.com/en/products/sparkview/) - Browser-based remote access solution. No VPN client; just deploy the software in the DMZ. Access VMs, desktops, servers, and apps anytime, anywhere, without complex and costly client rollouts or user management. `⊘ Proprietary` `Java`
 
 
-### Resource Planning
-
-**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
-
-- [YetiForce](https://yetiforce.com/en/) - Opensource CRM ERP with sales, marketing, accounting, HR, Support, Logistics and GDPR support. ([Demo](https://gitstable.yetiforce.com/), [Source Code](https://github.com/YetiForceCompany/YetiForceCRM)) `⊘ Proprietary` `PHP`
-
-
 ### Search Engines
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
@@ -221,12 +215,22 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Axigen](https://www.axigen.com/mail-server/free/) - Turnkey messaging solution for small & micro businesses, integration projects or test environments. `⊘ Proprietary` `Unknown`
+- [Cloud Seeder](https://ipv6.rs/cloudseeder/) - Cloud Seeder is a 1-click server appliance deployment and maintenance suite for Windows, MacOS and Linux. ([Source Code](https://github.com/ipv6rslimited/cloudseeder)) `⊘ Proprietary` `Go`
+- [Cloud Seeder](https://ipv6.rs/cloudseeder/) - Cloud Seeder is a 1-click server appliance deployment and maintenance suite for Windows, MacOS and Linux. ([Source Code](https://github.com/ipv6rslimited/cloudseeder)) `⊘ Proprietary` `Go`
 - [Cloudron](https://www.cloudron.io/) - Open-core software allowing you to effortlessly self-host web apps on your server. ([Demo](https://my.demo.cloudron.io/), [Source Code](https://git.cloudron.io/groups/cloudron)) `⊘ Proprietary` `Nodejs/Docker`
+- [Cosmos](https://cosmos-cloud.io/) - Cosmos is a self-hosted platform for running server applications securely and with built-in privacy features. It acts as a secure gateway to your application, as well as a server manager. ([Source Code](https://github.com/azukaar/cosmos-Server)) `Apache-2.0/Commons-Clause` `Docker/Go`
 - [Easypanel](https://easypanel.io) - Modern server control panel powered by Docker. `⊘ Proprietary` `Docker`
 - [hMailServer](https://www.hmailserver.com) - Open-source e-mail server for Microsoft Windows. ([Source Code](https://github.com/hmailserver/hmailserver)) `⊘ Proprietary` `C++`
 - [Poste.io](https://poste.io) - Full-featured solution for your Email server. Native implementation of last anti-SPAM methods, webmail and easy administration included. Free tier available. ([Demo](https://poste.io/demo)) `⊘ Proprietary` `Unknown`
 - [Umbrel](https://umbrel.com/) - A beautiful personal server OS for self-hosting. Install on a Raspberry Pi 4 or Ubuntu/Debian. ([Source Code](https://github.com/getumbrel/umbrel)) `⊘ Proprietary` `Nodejs/Docker`
 - [Unraid](https://www.unraid.net) `⚠` - Linux-based operating system designed to run on home media server setups. `⊘ Proprietary` `Unknown`
+
+
+### Software Development - API Management
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [Hook0](https://www.hook0.com) - A Webhooks-as-a-service (WaaS) that makes it easy for online products to provide webhooks. Dispatch up to 3,000 events/month with 7 days of history retention for free. ([Source Code](https://gitlab.com/hook0/hook0)) `SSPL-1.0` `Rust/Nodejs/Docker`
 
 
 ### Software Development - Low Code
@@ -235,6 +239,7 @@
 
 - [Budibase](https://www.budibase.com) - Build and automate internal tools, admin panels, dashboards, CRUD apps, and more, in minutes (alternative to Outsystems, Retool, Mendix, Appian). ([Source Code](https://github.com/Budibase/budibase)) `⊘ Proprietary` `Nodejs/Docker/K8S`
 - [Dify.ai](https://dify.ai) - Build, test and deploy LLM applications. ([Source Code](https://github.com/langgenius/dify)) `Apache-2.0/Commons-Clause` `Docker`
+- [UI Bakery](https://uibakery.io) - Build internal tools, customer portals, and CRUD apps quickly. Configure scheduled jobs and webhooks. Create structure and manage data through a GUI. ([Demo](https://cloud.uibakery.io), [Source Code](https://github.com/uibakery/self-hosted)) `⊘ Proprietary` `Docker/K8S`
 
 
 ### Software Development - Project Management
@@ -268,10 +273,11 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Deskpro](https://www.deskpro.com/) - On-Premise help desk software that includes email, chat, voice & help centre publishing. Full visible source code and API. `⊘ Proprietary` `Unknown`
+- [Erxes](https://erxes.io/install/) - Marketing, sales, and customer service platform designed to help businesses attract more engaged customers. ([Source Code](https://github.com/erxes/erxes)) `AGPL-3.0/Commons-Clause` `Docker/Nodejs`
 - [Full Help](https://www.fullhelp.com/en/) - Simple, easy to use help desk & knowledge base software. Custom branding, custom themes, restful API, communication channels, multi-company support, multi-language support, and much more! At least 1 new release per month. `⊘ Proprietary` `PHP`
 - [JIRA](https://www.atlassian.com/software/jira) - Professional and extensible issue tracker. `⊘ Proprietary` `Java`
 - [Jitbit Helpdesk](https://www.jitbit.com/helpdesk/) - Self-hosted help desk software - simple but powerful. ([Demo](https://www.jitbit.com/saas-helpdesk/trial/)) `⊘ Proprietary` `.NET`
-- [SupportPal](https://www.supportpal.com/) - Powerful help desk software - easy, fast and intuitive. ([Demo](https://demo.supportpal.com/en)) `⊘ Proprietary` `PHP`
+- [SupportPal](https://www.supportpal.com/) - Powerful help desk software - easy, fast and intuitive. ([Demo](https://www.supportpal.com/product/demo)) `⊘ Proprietary` `PHP`
 
 
 ### Time Tracking
